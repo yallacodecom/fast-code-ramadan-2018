@@ -1,10 +1,12 @@
-export const userCard = {
+const userCard = {
   name: 'Medhat Dawoud',
-  id: 123456789
-}
+  address: 'Amsterdam'
+};
 
-export const address = 'Amsterdam';
+export const address = userCard.address;
 
 export function getUserName() {
   return userCard.name;
 }
+
+export default userCard;

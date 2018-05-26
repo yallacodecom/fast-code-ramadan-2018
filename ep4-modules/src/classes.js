@@ -2,8 +2,8 @@ class Human {
   constructor() {
     console.log('Human Constructor');
 
-    this.name = 'Medhat Dawoud';
-    this.job = 'Frontend Developer';
+    this.name = '';
+    this.job = '';
     this.languages = 'Arabic, English';
   }
 
@@ -11,12 +11,12 @@ class Human {
     return 28;
   }                      
 }
-
-export default class Person{
+export default class Person extends Human{
   constructor(){
+    super();
     console.log('Person Constructor');
 
-    this.name = 'John';
+    this.name = 'John Doe';
     this.job = 'Sofware Engineer';
   }
 
