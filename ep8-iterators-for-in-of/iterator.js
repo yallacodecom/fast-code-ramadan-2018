@@ -1,5 +1,17 @@
 let str = "Medhat";
 
+// let iterator = str[Symbol.iterator]();
+
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());
+
+
+
 
 // Emplementation Example
 // var someString = new String('hi');
@@ -21,7 +33,8 @@ let str = "Medhat";
 // let iterator = someString[Symbol.iterator]();
 // console.log(iterator.next());
 // console.log(iterator.next());
+// console.log(iterator.next());
 
 
 // spread operator
-// console.log(...str)
+console.log(...str)
