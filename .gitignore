@@ -3,3 +3,4 @@ dist
 .yo-rc.json
 yarn.lock
 yarn-error.log
+._.DS_Store
