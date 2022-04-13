@@ -1,5 +1,6 @@
 /**
  * variables
+ * test
  */
 function testVar () {
   var x = 10;
